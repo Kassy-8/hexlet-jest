@@ -32,7 +32,7 @@ jobs:
           CI: true
         
       - name: test and code coverage
-        run: npm test
+        run: npx jest
         
 
 
