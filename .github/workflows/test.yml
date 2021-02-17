@@ -32,7 +32,7 @@ jobs:
           CI: true
         
       - name: test and code coverage
-        run: npx jest
+        run: NODE_OPTIONS=--experimental-vm-modules npx jest --colors
         
 
 
